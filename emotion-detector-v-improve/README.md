@@ -28,4 +28,4 @@ Place your text file at User/1.txt (one sentence per line). Then simply run:
 
 RUN Predict.py
 By default this uses results/logistic_regression.joblib and User/1.txt.
-
+After running, you will get a new txt file in the User folder containing the text and sentiment analysis.
