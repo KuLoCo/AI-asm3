@@ -28,4 +28,19 @@ Place your text file at User/1.txt (one sentence per line). Then simply run:
 
 RUN Predict.py
 By default this uses results/logistic_regression.joblib and User/1.txt.
-After running, you will get a new txt file in the User folder containing the text and sentiment analysis.
+
+4. Interactive Web Interface (Streamlit)
+
+This is an additional optional option. If you don't want to analyze your recent emotional changes in batches, you can use this to perform an intuitive word-by-word analysis.
+
+Make sure you install all the requirements.
+pip install -r requirements.txt
+
+Then run the script directly.
+streamlit run streamlit_app.py
+
+If it still doesn't work, try updating the package.
+pip install --upgrade streamlit
+
+A browser window will open at http://localhost:8501, where you can enter text and get instant emotion predictions.
+
